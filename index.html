@@ -4,20 +4,50 @@
 
 <meta charset="utf-8">
 <title>Force User Sign Up Form/<title>
+<link href="organa.css" rel="stylesheet">
 
 </head>
 
 
 <body>
 
+<!-- request bin url http://requestb.in/18pgmf31 -->
+    <header>
+        <h1>Force User Sign Up Form</h1>
+    </header>
+
   <fieldset>
       <legend>Basic Info</legend>
+          <aside>
+              <label for="fullName">Full Name</label>
+              <input type="text" name="fullName"  id="fullName" required>
+          </aside>
+
+          <aside>
+              <label for="profilePic">Profile Pic</label>
+              <input type="file" name="profilePic" id="profilePic" required>
+          </aside>
+
+          <aside>
+              <label for="email" name="email">Email</label>
+              <input type="email" name="email" id="email" required>
+          </aside>
+
+          <aside>
+              Side
+              <label for="side" name="side">Dark
+              <input type="radio" name="side" id="side" required>
+              </label>
+              <label for="side" name="side">Light
+              <input type="radio" name="side" id="side" required>
+              </label>
+          </aside>
   </fieldset>
 
   <fieldset>
       <legend>Abilities</legend>
   </fieldset>
-  
+
   <fieldset>
       <legend>Application Info</legend>
   </fieldset>
