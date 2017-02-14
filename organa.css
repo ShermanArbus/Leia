@@ -1,0 +1,8 @@
+fieldset {
+  display: inline;
+  vertical-align: top;;
+}
+
+label {
+  display: block;
+}
