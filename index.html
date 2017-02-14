@@ -1,58 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-<meta charset="utf-8">
-<title>Force User Sign Up Form/<title>
-<link href="organa.css" rel="stylesheet">
+    <head>
 
-</head>
+        <meta charset="utf-8">
+        <title>Force User Sign Up Form</title>
+
+        <link href="organa.css" rel="stylesheet">
+
+    </head>
 
 
-<body>
+    <body>
 
-<!-- request bin url http://requestb.in/18pgmf31 -->
-    <header>
-        <h1>Force User Sign Up Form</h1>
-    </header>
+    <!-- request bin url http://requestb.in/18pgmf31 -->
+        <header>
+            <h1>Force User Sign Up Form</h1>
+        </header>
 
-  <fieldset>
-      <legend>Basic Info</legend>
+      <fieldset>
+          <legend>Basic Info</legend>
+              <aside>
+                  <label for="fullName">Full Name</label>
+                  <input type="text" name="fullName"  id="fullName" required>
+              </aside>
+
+              <aside>
+                  <label for="profilePic">Profile Pic</label>
+                  <input type="file" name="profilePic" id="profilePic" required>
+              </aside>
+
+              <aside>
+                  <label for="email" name="email">Email</label>
+                  <input type="email" name="email" id="email" required>
+              </aside>
+
+              <aside>
+                  Side
+                  <label for="side" name="side">Dark
+                  <input type="radio" name="side" id="side" required>
+                  </label>
+
+                  <label for="side" name="side">Light
+                  <input type="radio" name="side" id="side" required>
+                  </label>
+              </aside>
+
+              <aside>
+                  <label for="originStory" name="originStory">Origin Story</label>
+                  <input type="textarea" name="originStory" id="originStory" required>
+              </aside>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Abilities</legend>
           <aside>
-              <label for="fullName">Full Name</label>
-              <input type="text" name="fullName"  id="fullName" required>
+                Lightsaber Color
+                <select name="lightsaber">
+                    <option value="red" selected>Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="purple">Purple</option>
+                </select>
           </aside>
+      </fieldset>
 
-          <aside>
-              <label for="profilePic">Profile Pic</label>
-              <input type="file" name="profilePic" id="profilePic" required>
-          </aside>
-
-          <aside>
-              <label for="email" name="email">Email</label>
-              <input type="email" name="email" id="email" required>
-          </aside>
-
-          <aside>
-              Side
-              <label for="side" name="side">Dark
-              <input type="radio" name="side" id="side" required>
-              </label>
-              <label for="side" name="side">Light
-              <input type="radio" name="side" id="side" required>
-              </label>
-          </aside>
-  </fieldset>
-
-  <fieldset>
-      <legend>Abilities</legend>
-  </fieldset>
-
-  <fieldset>
-      <legend>Application Info</legend>
-  </fieldset>
+      <fieldset>
+          <legend>Application Info</legend>
+      </fieldset>
 
 
 
-</body>
+    </body>
 </html>
