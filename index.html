@@ -18,11 +18,15 @@
             <h1>Force User Sign Up Form</h1>
         </header>
 
+        <form action="http://requestb.in/18pgmf31" method="post">
+
+
       <fieldset>
           <legend>Basic Info</legend>
               <aside>
                   <label for="fullName">Full Name</label>
-                  <input type="text" name="fullName"  id="fullName" required>
+                  <input type="text" name="fullName"  id="fullName"
+                  placeholder="Luke Skywalker" required>
               </aside>
 
               <aside>
@@ -72,33 +76,34 @@
 
           <aside>
                 <label for="ability" name="ability">Favorite Ability</label>
-                <input type="text" name="ability" id="ability" required>
+                <input type="text" name="ability" id="ability"
+                placeholder="precognition"required>
           </aside>
 
           <aside>
                 Pilot Experience
                 <label for="pilotXp" name="pilotXp">
-                <input type="checkbox" name="pilotXp" id="pilotXp" required>
+                <input type="checkbox" name="pilotXp" id="pilotXp">
               </label>Speeder
 
                 <label for="pilotXp" name="pilotXp">
-                <input type="checkbox" name="pilotXp" id="pilotXp" required>
+                <input type="checkbox" name="pilotXp" id="pilotXp">
               </label>Transport
 
                 <label for="pilotXp" name="pilotXp">
-                <input type="checkbox" name="pilotXp" id="pilotXp" required>
+                <input type="checkbox" name="pilotXp" id="pilotXp">
               </label>X-wing
 
                 <label for="pilotXp" name="pilotXp">
-                <input type="checkbox" name="pilotXp" id="pilotXp" required>
+                <input type="checkbox" name="pilotXp" id="pilotXp">
               </label>TIE fighter
 
                 <label for="pilotXp" name="pilotXp">
-                <input type="checkbox" name="pilotXp" id="pilotXp" required>
+                <input type="checkbox" name="pilotXp" id="pilotXp">
               </label>Starship
 
                 <label for="pilotXp" name="pilotXp">
-                <input type="checkbox" name="pilotXp" id="pilotXp" required>
+                <input type="checkbox" name="pilotXp" id="pilotXp">
               </label>Bantha
           </aside>
 
@@ -109,18 +114,33 @@
 
           <aside>
                 <label for="mentor" name"mentor">Desired Mentor</label>
-                <input type="text" name="mentor" id="mentor" required>
+                <input type="text" name="mentor" id="mentor" placeholder="Yoda"required>
           </aside>
 
           <aside>
                 Application Date
-                  <input type="date">
-
+                <input type="date">
           </aside>
 
+          <aside>
+                <label for="password" name="password">Application Password</label>
+                <input type="password" name="password" id="password">
+          </aside>
+
+          <aside>
+                <label for="howDark" name="howDark">How do you get to the Dark Side</label>
+                <input type="textarea" name="howDark" id="howDark">
+          </aside>
+
+          <input type="reset" value="Start Over">
+          <input type="submit" value="Apply">
       </fieldset>
 
 
+      </form>
+      <footer>
+          <p>&copy; 2017 The Republic</p>
+      </footer>
 
     </body>
 </html>
