@@ -1,8 +1,29 @@
 fieldset {
   display: inline;
-  vertical-align: top;;
+  vertical-align: top;
+  max-width: 30%;
+
 }
 
+
 label {
-  display: block;
+  display: inline-block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+
+}
+
+form {
+  margin: 2%;
+}
+
+aside {
+  margin-bottom: 1em;
+}
+
+input textarea {
+  height: 5em;
 }
