@@ -2,18 +2,16 @@ fieldset {
   display: inline;
   vertical-align: top;
   max-width: 30%;
-
 }
 
 
 label {
-  display: inline-block;
+  display: block;
   font-weight: bold;
 }
 
 input {
-  width: 100%;
-
+  width: 100%
 }
 
 form {
@@ -24,6 +22,6 @@ aside {
   margin-bottom: 1em;
 }
 
-input textarea {
-  height: 5em;
+.button {
+  display: block;
 }
