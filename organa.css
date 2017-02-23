@@ -7,11 +7,10 @@ fieldset {
 
 label {
   display: block;
-  font-weight: bold;
 }
 
 input {
-  width: 100%
+  width: 100%;
 }
 
 form {
@@ -29,3 +28,12 @@ aside {
    height: 5em;
    width: 100%
  }
+
+h2 {
+  font-size: 1em;
+  margin: 0;
+}
+
+label:first-child {
+  font-weight: bold;
+}
