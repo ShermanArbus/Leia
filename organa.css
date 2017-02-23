@@ -7,10 +7,7 @@ fieldset {
 
 label {
   display: block;
-}
-
-input {
-  width: 100%;
+  /*float: left;*/
 }
 
 form {
@@ -19,6 +16,7 @@ form {
 
 aside {
   margin-bottom: 1em;
+  clear: both;
 }
 
 .button {
@@ -36,4 +34,7 @@ h2 {
 
 label:first-child {
   font-weight: bold;
+}
+.checkboxes label {
+float: left;
 }
