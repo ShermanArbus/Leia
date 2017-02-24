@@ -17,6 +17,7 @@ form {
 aside {
   margin-bottom: 1em;
   clear: both;
+  float: left;
 }
 
 .button {
