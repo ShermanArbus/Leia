@@ -1,17 +1,10 @@
-.forceSignUp {
-  width: auto;
-}
-
-
-
 fieldset {
   display: inline;
+  align-items: center;
   vertical-align: top;
-  margin: 1em;
+  margin: auto;
+  width: 30%;
 }
-
-
-
 
 aside {
   margin-bottom: 1em;

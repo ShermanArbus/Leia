@@ -44,11 +44,11 @@
           <textarea name="originStory" id="originStory" required></textarea>
         </aside>
       </fieldset>
-        <fieldset>
+      <fieldset class="abilities">
         <legend>Abilities</legend>
         <aside>
           <label for="lightsaber" class="button">Lightsaber Color</label>
-          <select name="lightsaber" id="lightsaber">
+          <select name="lightsaber" id="lightsaber" required>
             <option value="red" selected>Red</option>
             <option value="blue">Blue</option>
             <option value="green">Green</option>
@@ -57,7 +57,7 @@
         </aside>
         <aside>
           <label for="levitate">How many objects can you levitate at once?</label>
-          <input type="number" min="0" name="levitate" id="levitate">
+          <input type="number" min="0" name="levitate" id="levitate" required>
         </aside>
         <aside>
           <label for="ability">Favorite Ability</label>
@@ -86,7 +86,7 @@
             Bantha</label>
         </aside>
       </fieldset>
-      <fieldset>
+      <fieldset class="applicationInfo">
       <legend>Application Info</legend>
         <aside>
           <label for="mentor">Desired Mentor</label>
@@ -95,19 +95,19 @@
         </aside>
         <aside>
           <label for="appDate">Application Date</label>
-          <input type="date" name="appDate" id="appDate">
+          <input type="date" name="appDate" id="appDate" required>
         </aside>
         <aside>
           <label for="password">Application Password</label>
-          <input type="password" name="password" id="password">
+          <input type="password" name="password" id="password" required>
         </aside>
         <aside>
           <label for="howDark">How do you get to the Dark Side?</label>
-          <textarea name="howDark" id="howDark"></textarea>
+          <textarea name="howDark" id="howDark" required=""></textarea>
         </aside>
         <aside class="inline_buttons">
           <input type="reset" value="Start Over">
-            <input type="submit" value="Apply">
+          <input type="submit" value="Apply">
         </aside>
       </fieldset>
     </form>
