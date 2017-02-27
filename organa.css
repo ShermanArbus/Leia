@@ -1,17 +1,17 @@
+.forceSignUp {
+  width: auto;
+}
+
+
+
 fieldset {
   display: inline;
   vertical-align: top;
-  max-width: 30%;
+  margin: 1em;
 }
 
 
-label {
-  display: block;
-}
 
-form {
-  margin: 2%;
-}
 
 aside {
   margin-bottom: 1em;
@@ -32,9 +32,14 @@ h2 {
   margin: 0;
 }
 
+.sideButtons {
+  display: inline;
+}
+
 label:first-child {
   font-weight: bold;
 }
 .checkboxes label {
 float: left;
+margin-right: 1em;
 }

@@ -2,161 +2,117 @@
 <html lang="en">
 
 <head>
-
 <meta charset="utf-8">
 <title>Force User Sign Up Form</title>
-
 <link href="organa.css" rel="stylesheet">
-
 </head>
 
-
-<body>
-
-<header>
-<h1>Force User Sign Up Form</h1>
-</header>
-
-<form action="http://requestb.in/18pgmf31" method="post">
-
-
-<fieldset>
-
-<legend>Basic Info</legend>
-
-<aside>
-<label for="fullName">Full Name</label>
-<input type="text" name="fullName"  id="fullName"
-placeholder="Luke Skywalker" required>
-</aside>
-
-<aside>
-<label for="profilePic">Profile Pic</label>
-<input type="file" name="profilePic" id="profilePic" required>
-</aside>
-
-<aside>
-<label for="email">Email</label>
-<input type="email" name="email" id="email"
-placeholder="luke@sky.com"required>
-</aside>
-
-<aside class="sideButtons">
-<h2>Side</h2>
-<label for="side">
-<input type="radio" name="side" id="side-light" required>
-Light
-</label>
-
-<label for="side">
-<input type="radio" name="side" id="side-dark" required>
-Dark
-</label>
-</aside>
-
-<aside>
-<label for="originStory">Origin Story</label>
-<textarea name="originStory" id="originStory" required></textarea>
-</aside>
-
-</fieldset>
-
-<fieldset>
-
-<legend>Abilities</legend>
-
-<aside>
-<label for="lightsaber" class="button">Lightsaber Color</label>
-
-<select name="lightsaber" id="lightsaber">
-<option value="red" selected>Red</option>
-<option value="blue">Blue</option>
-<option value="green">Green</option>
-<option value="purple">Purple</option>
-</select>
-
-</aside>
-
-<aside>
-<label for="levitate">How many objects can you levitate at once?</label>
-<input type="number" min="0" name="levitate" id="levitate">
-</aside>
-
-<aside>
-<label for="ability">Favorite Ability</label>
-<input type="text" name="ability" id="ability"
-placeholder="precognition"required>
-</aside>
-
-<aside class="checkboxes">
-<h2>Pilot Experience</h2>
-<label for="pilotXp">
-<input type="checkbox" name="pilotXp" id="pilotXp-speeder">
-Speeder</label>
-
-<label for="pilotXp">
-<input type="checkbox" name="pilotXp" id="pilotXp-transport">
-Transport</label>
-
-<label for="pilotXp">
-<input type="checkbox" name="pilotXp" id="pilotXp-x-wing">
-X-wing</label>
-
-<label for="pilotXp">
-<input type="checkbox" name="pilotXp" id="pilotXp-tie-fighter">
-TIE fighter</label>
-
-<label for="pilotXp">
-<input type="checkbox" name="pilotXp" id="pilotXp-starship">
-Starship</label>
-
-<label for="pilotXp">
-<input type="checkbox" name="pilotXp" id="pilotXp-bantha">
-Bantha</label>
-</aside>
-
-</fieldset>
-
-<fieldset>
-
-<legend>Application Info</legend>
-
-<aside>
-<label for="mentor">Desired Mentor</label>
-<input type="text" name="mentor" id="mentor"
-placeholder="Yoda"required>
-</aside>
-
-<aside>
-<label for "appDate">Application Date</label>
-<input type="date" name="appDate" id="appDate">
-</aside>
-
-<aside>
-<label for="password">Application Password</label>
-<input type="password" name="password" id="password">
-</aside>
-
-<aside>
-<label for="howDark">How do you get to the Dark Side?</label>
-<textarea name="howDark" id="howDark"></textarea>
-<!-- fixed textarea  -->
-
-</aside>
-
-<aside class="inline_buttons">
-<input type="reset" value="Start Over">
-<input type="submit" value="Apply">
-</aside>
-
-</fieldset>
-
-
-</form>
-
-<footer>
-<p>&copy; 2017 The Republic</p>
-</footer>
-
-</body>
+  <body>
+    <header>
+      <h1>Force User Sign Up Form</h1>
+    </header>
+    <form class="forceSignUp" action="http://requestb.in/18pgmf31" method="post">
+      <fieldset class="basicInfo">
+        <legend>Basic Info</legend>
+        <aside>
+          <label for="fullName">Full Name</label>
+          <input type="text" name="fullName"  id="fullName"
+          placeholder="Luke Skywalker" required>
+        </aside>
+        <aside>
+          <label for="profilePic">Profile Pic</label>
+          <input type="file" name="profilePic" id="profilePic" required>
+        </aside>
+        <aside>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email"
+          placeholder="luke@sky.com"required>
+        </aside>
+        <aside class="sideButtons">
+          <h2>Side</h2>
+          <label for="side">
+            <input type="radio" name="side" id="side-light" required>
+            Light
+          </label>
+          <label for="side">
+            <input type="radio" name="side" id="side-dark" required>
+            Dark
+          </label>
+        </aside>
+        <aside>
+          <label for="originStory">Origin Story</label>
+          <textarea name="originStory" id="originStory" required></textarea>
+        </aside>
+      </fieldset>
+        <fieldset>
+        <legend>Abilities</legend>
+        <aside>
+          <label for="lightsaber" class="button">Lightsaber Color</label>
+          <select name="lightsaber" id="lightsaber">
+            <option value="red" selected>Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="purple">Purple</option>
+          </select>
+        </aside>
+        <aside>
+          <label for="levitate">How many objects can you levitate at once?</label>
+          <input type="number" min="0" name="levitate" id="levitate">
+        </aside>
+        <aside>
+          <label for="ability">Favorite Ability</label>
+          <input type="text" name="ability" id="ability"
+          placeholder="precognition"required>
+        </aside>
+        <aside class="checkboxes">
+          <h2>Pilot Experience</h2>
+          <label for="pilotXp">
+            <input type="checkbox" name="pilotXp" id="pilotXp-speeder">
+            Speeder</label>
+          <label for="pilotXp">
+            <input type="checkbox" name="pilotXp" id="pilotXp-transport">
+            Transport</label>
+          <label for="pilotXp">
+            <input type="checkbox" name="pilotXp" id="pilotXp-x-wing">
+            X-wing</label>
+          <label for="pilotXp">
+            <input type="checkbox" name="pilotXp" id="pilotXp-tie-fighter">
+            TIE fighter</label>
+          <label for="pilotXp">
+            <input type="checkbox" name="pilotXp" id="pilotXp-starship">
+            Starship</label>
+          <label for="pilotXp">
+            <input type="checkbox" name="pilotXp" id="pilotXp-bantha">
+            Bantha</label>
+        </aside>
+      </fieldset>
+      <fieldset>
+      <legend>Application Info</legend>
+        <aside>
+          <label for="mentor">Desired Mentor</label>
+          <input type="text" name="mentor" id="mentor"
+          placeholder="Yoda"required>
+        </aside>
+        <aside>
+          <label for="appDate">Application Date</label>
+          <input type="date" name="appDate" id="appDate">
+        </aside>
+        <aside>
+          <label for="password">Application Password</label>
+          <input type="password" name="password" id="password">
+        </aside>
+        <aside>
+          <label for="howDark">How do you get to the Dark Side?</label>
+          <textarea name="howDark" id="howDark"></textarea>
+        </aside>
+        <aside class="inline_buttons">
+          <input type="reset" value="Start Over">
+            <input type="submit" value="Apply">
+        </aside>
+      </fieldset>
+    </form>
+    <footer>
+      <p>&copy; 2017 The Republic</p>
+    </footer>
+  </body>
 </html>
